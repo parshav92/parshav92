@@ -18,7 +18,8 @@
 - 💼 Want to collaborate on projects? Reach out via [email](mailto:dedhiaparshav@gmail.com)
 - 💬 Ask me about anything, I am happy to help
 - 📄 Check out my [resume](https://drive.google.com/file/d/1-bgnBDhIEA31mn00TGf8R4X2C65nQYv7/view?usp=drive_link)
-- ⚡ Fun fact: **There is ALWAYS a way**
+- ⚡ Random thought :) 
+**There is ALWAYS a way**
 
 ---
 
