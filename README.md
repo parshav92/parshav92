@@ -1,83 +1,114 @@
-# <div align="center">Hi 👋, I'm Parshav</div>
-
-<div align="center">
-
-### Fullstack developer, programmer, and Web3 fanboy. Creating fun, decentralized solutions that don't suck.
-
 ![Profile Views](https://komarev.com/ghpvc/?username=parshav92&label=Profile%20views&color=0e75b6&style=flat)
 
-</div>
+```javascript
+const aboutMe = {
+  name: "Parshav Dedhia",
+  profession: "Full Stack Developer | Blockchain Developer",
+  languages: ["JavaScript", "TypeScript", "Python", "Solidity"],
+  primaryLanguage: "JavaScript",
+  frameworks: ["React", "Next.js", "Flask", "Node.js"],
+  loves: ["Coding", "Learning New Tech", "Open Source"],
+  description: `Hi there! I'm a passionate developer who thrives at the intersection of 
+  creativity and technology. Whether it's building scalable web apps, 
+  crafting intuitive UIs, or demystifying blockchain, I'm always up for a challenge!`,
+  side-quests: [
+    "🏆 Winner of DEVQUEST Hackathon",
+    "🚀 Built 'Hiro', a real-time collaboration tool",
+    "🔍 Developing 'Defendr', a smart contract vulnerability scanner",
+  ],
+  tools: {
+    frontend: ["React", "Next.js", "Tailwind CSS"],
+    backend: ["Node.js", "Django", "Convex"],
+    database: ["Postgres", "MongoDB"],
+    devOps: ["Docker", "AWS", "GitHub Actions"],
+    misc: ["Django", "Flask"],
+  },
+  futureGoals: [
+    "🔍 Dive deeper into AI-powered smart contract analysis.",
+    "🛠️ Contribute to open-source projects solving real-world problems.",
+    "🌐 Build tools that make developers' lives easier."
+  ],
+  contact: {
+    email: "dedhiaparshav@gmail.com",
+    linkedIn: "https://linkedin.com/in/parshav-dedhia",
+    portfolio: "https://parshav.me",
+    message() {
+      console.log(
+        `📫 Feel free to reach out via email at ${this.email} or connect with me on LinkedIn!`
+      );
+    },
+  },
+  greet() {
+    console.log(
+      `Hello, world! I'm ${this.name}, a ${this.profession} driven by curiosity and (mogu mogu)! Let's build something awesome together!`
+    );
+  },
+};
 
----
-
-## 🚀 About Me
-
-- 🔭 I'm currently working on [Hiro](https://hiro-beta.vercel.app/)
-- 🌱 I'm currently learning **Blockchain**
-- 🎓 Pursuing BTech in Computer Engineering at Dwarkadas J. Sanghvi College of Engineering
-- 💼 Want to collaborate on projects? Reach out via [email](mailto:dedhiaparshav@gmail.com)
-- 💬 Ask me about anything, I am happy to help
-- 📄 Check out my [resume](https://drive.google.com/file/d/1-bgnBDhIEA31mn00TGf8R4X2C65nQYv7/view?usp=drive_link)
-- ⚡ Random thought :) 
-**There is ALWAYS a way**
-
----
+aboutMe.greet();
+console.log("🚀 Check out my latest projects and ideas!");
+console.table(aboutMe.side-quests);
+aboutMe.contact.message();
+```
 
 ## 🤝 Connect with me
 
-<p align="center">
+<p align="left">
   <a href="https://twitter.com/parshavdedhia" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="parshavdedhia" height="30" width="40" /></a>
   <a href="https://linkedin.com/in/parshav-dedhia" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="parshav-dedhia" height="30" width="40" /></a>
-  <a href="https://instagram.com/parshav._" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="parshav._" height="30" width="40" /></a>
   <a href="https://www.leetcode.com/parshav92" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="parshav92" height="30" width="40" /></a>
 </p>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=parshav92&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=parshav92&theme=tokyonight" />
-</div>
-
-<div align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs?username=parshav92&show_icons=true&locale=en&layout=compact&theme=tokyonight" />
-</div>
-
----
+</br>
 
 ## 🛠️ Languages and Tools
 
-<p align="center">
-  <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a>
-  <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a>
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
-  <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a>
-  <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a>
-  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>
-  <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
-  <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
-  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a>
-  <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
-  <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a>
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a>
-</p>
+<table>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Backend:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=python,solidity,nodejs,fastapi,flask,express"/></td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Frontend:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,js,ts,figma"/></td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Database:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=postgresql,mysql,mongodb,redis"/></td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">DevOps:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=docker,kubernetes,aws,githubactions"/></td>
+    </tr>
+<!--     <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Automated Test:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=jest,pytest"/></td>
+    </tr> -->
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Version Control:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=git,github,gitlab"/></td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">IDEs:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=vscode,pycharm"/></td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Other Tools:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=git,postman"/></td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Operating Systems:</td>
+        <td><img height="40" src="https://skillicons.dev/icons?i=ubuntu,windows"/></td>
+    </tr>
+</table>
+</br>
+
+
+## 📊 GitHub Stats
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=parshav92&theme=swift&hide_border=true&mode=weekly)](https://git.io/streak-stats)
+
+<div align="left">
+  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs?username=parshav92&show_icons=true&locale=en&layout=compact&theme=graywhite" />
+</div>
 
 ---
-
-<div align="center">
-
-### Thanks for visiting my profile! Let's connect and build something amazing together. 🚀
-
-</div>
